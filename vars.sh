@@ -1,13 +1,13 @@
 #!/bin/bash
 
 # Manifest
-export MANIFEST=""
-export MANIFEST_BRANCH=""
+export MANIFEST="https://github.com/projectarcana-aosp/manifest"
+export MANIFEST_BRANCH="12.x"
 
 # Device Info
 export DEVICE="mido" # Codename
 export OEM="Xiaomi"
-export PLATFORM="mido" # eg: sm6250, mt6765 etc.
+export PLATFORM="RedmiNote4" # eg: sm6250, mt6765 etc.
 
 # Trees
 export DT_LINK="https://github.com/shashank1439/device_xiaomi_mido"
