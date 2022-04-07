@@ -29,10 +29,10 @@ export LUNCH_COMBO="" # eg: "aosp_mido-userdebug", No need if USE_BRUNCH_AS_TARG
 export TARGET="" # eg: "bacon", No need if USE_BRUNCH_AS_TARGET is set to true
 
 # Output File (to upload)
-export OUTPUT_FILE="Derpfest12L*.zip" # eg: "PixelExperience*.zip"
+export OUTPUT_FILE="ProjectArcana*.zip" # eg: "PixelExperience*.zip"
 
 # Extra Command
-export EXTRA_CMD=""
+export EXTRA_CMD="git clone --single-branch --depth=1 https://github.com/LineageOS/android_external_ant-wireless_antradio-library.git external/ant-wireless/antradio-library/"
 
 # Not Recommended to Change
 export SYNC_PATH=$HOME/work
