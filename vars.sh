@@ -5,16 +5,16 @@ export MANIFEST=""
 export MANIFEST_BRANCH=""
 
 # Device Info
-export DEVICE="" # Codename
-export OEM=""
-export PLATFORM="" # eg: sm6250, mt6765 etc.
+export DEVICE="mido" # Codename
+export OEM="Xiaomi"
+export PLATFORM="mido" # eg: sm6250, mt6765 etc.
 
 # Trees
-export DT_LINK=""
+export DT_LINK="https://github.com/shashank1439/device_xiaomi_mido"
 export DCT_LINK="" # Device Common Tree, Leave Blank if None
-export VT_LINK=""
+export VT_LINK="https://github.com/shashank1439/vendor_xiaomi-mido"
 export VCT_LINK="" # Vendor Common Tree, Leave Blank if None
-export KT_LINK="" # Kernel Tree, Leave Blank if Prebuilt
+export KT_LINK="https://github.com/shashank1439/kernel_xiaomi_mido" # Kernel Tree, Leave Blank if Prebuilt
 
 # Trees Path
 export DT_PATH="device/$OEM/$DEVICE"
@@ -24,12 +24,12 @@ export VCT_PATH="vendor/$OEM/${PLATFORM}-common"
 export KT_PATH="kernel/$OEM/$PLATFORM"
 
 # Lunch Combos and Targets
-export USE_BRUNCH_AS_TARGET=false # set it to "true" if you want to use brunch
-export LUNCH_COMBO="" # eg: "aosp_miatoll-userdebug", No need if USE_BRUNCH_AS_TARGET is set to true
+export USE_BRUNCH_AS_TARGET=true # set it to "true" if you want to use brunch
+export LUNCH_COMBO="" # eg: "aosp_mido-userdebug", No need if USE_BRUNCH_AS_TARGET is set to true
 export TARGET="" # eg: "bacon", No need if USE_BRUNCH_AS_TARGET is set to true
 
 # Output File (to upload)
-export OUTPUT_FILE="" # eg: "PixelExperience*.zip"
+export OUTPUT_FILE="Derpfest12L*.zip" # eg: "PixelExperience*.zip"
 
 # Extra Command
 export EXTRA_CMD=""
